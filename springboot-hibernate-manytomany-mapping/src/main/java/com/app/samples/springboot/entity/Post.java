@@ -34,7 +34,7 @@ public class Post {
 	private String title;
 	
 	/** The content. */
-	@Column(name = "psot_content")
+	@Column(name = "post_content")
 	private String content;
 	
 	/** The created at. */
