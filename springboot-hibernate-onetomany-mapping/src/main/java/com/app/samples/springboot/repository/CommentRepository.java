@@ -5,6 +5,9 @@ import org.springframework.stereotype.Repository;
 
 import com.app.samples.springboot.entity.Comment;
 
+/**
+ * The Interface CommentRepository.
+ */
 @Repository
 public interface CommentRepository extends JpaRepository<Comment, Long>{
 
